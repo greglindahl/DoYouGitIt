@@ -107,3 +107,5 @@ Settings > Collaborators
 1. You should get a merge conflict and should inspect the file to see the difference of HEAD and your commit. Manually remove the conflict markers (“<<<<<<<< HEAD”, “============“, and “>>>>>>>>>>>>>> 4dkue0283598ksghi938skj") after you determine which lines of code belong and which can be moved/removed.
 
 1. If you somehow avoided a merge conflict, both Person1 and Person2 should add and move to a branch called “bonus” and solve the bonus problem at the same time, then both push up the solution. This will surely cause a conflict!
+
+1. Commit the changes you made (removing the conflict markers and changing/moving code around) and push up to master.
