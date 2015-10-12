@@ -96,7 +96,7 @@ Settings > Collaborators
 
 1. Person2 should pull down the most recent changes to the repo.
 
-1. Person2 should create and move to a branch called “object-exercises” while Person1 should create and move to a branch called “function exercises”.
+1. Person2 should create and move to a branch called “object-exercises” while Person1 should create and move to a branch called “looping-exercises”.
 
 1. Both should work separately on their answers, then add and commit the changes when finished. Don’t forget to merge the changes to master and push from master when finished.
 
