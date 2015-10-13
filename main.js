@@ -38,6 +38,14 @@ dog.sweetNames = ["your mom", "coors", "bad dog"];
 var numArray = [2, 19, 7, 34, 6];
 
 // 11. Write a loop that outputs the following to the console:
+var hash = '';
+var loops = 0;
+while (loops < 7) {
+	loops++;
+	hash = hash + '#';
+	console.log(hash);
+}
+
 // *
 // **
 // ***
@@ -48,8 +56,16 @@ var numArray = [2, 19, 7, 34, 6];
 
 // 12. Write a loop that asks a user to input a sentence and returns whether the total number of characters
 //     (not counting white spaces) is even or odd.
+var sentence = prompt('Please input a sentence.');
+for (i = 0; i < sentence.length; i++) {
+	counter = 0;
+
+}
 
 
 
 // Bonus
 // Prompt a user to enter a phone number. Write a function that reverses the number.
+var phoneNumber = prompt('Enter your phone number');
+var newPhoneNumber = phoneNumber.reverse();
+console.log(newPhoneNumber);
