@@ -16,15 +16,17 @@ tvShows.unshift('Seinfeld');
 var showTV = [];
 showTV = tvShows.reverse();
 
-
-// Object Exercises
 // 5. Create an object called "myPartner" that describes you with your partnery's name, favorite color, and pet's name.
-
+var myPartner = {type:"Human", name:"Colin", favoriteColor:"Blue", petName:"Scout", job:"Slack-ass"};
 // 6. Create an object called dogs. Assign a key of "favoriteBreeds" with the value being an array of three dog breeds.
-
+var dog = {
+  favoriteBreeds:["Pitbull", "Australian Sheperd", "Corgi"]
+};
 // 7. Get the length of the 3rd dog name.
+console.log(dog.favoriteBreeds[2].length);
 
 // 8. To the dogs object, add a key of "sweetNames" with a value that is an array of dog names.
+dog.sweetNames = ["your mom", "coors", "bad dog"];
 
 
 
