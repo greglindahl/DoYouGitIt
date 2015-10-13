@@ -1,16 +1,20 @@
 // Array exercises
 // 1. Use the following array to join all of the words together.
 var arraySentence = ["I'm", "now", "a", "pro", "at", "arrays", "!"];
+arraySentence.join();
 
 // Use the following array for questions 2-4:
 var tvShows = ["Portlandia", "Curb Your Enthusiasm", "Dr. Quinn, Medicine Woman"];
 
 // 2. Change the second element to "Full House"
+tvShows[1] = 'Full House';
 
 // 3. Add a new TV show to the beginning of the array.
+tvShows.unshift('Seinfeld');
 
 // 4. Create a new Array called showTV. The items should be the same as tvShows, only in reverse order
-
+var showTV = [];
+showTV = tvShows.reverse();
 
 
 // Object Exercises
