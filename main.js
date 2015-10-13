@@ -33,6 +33,20 @@ dog.sweetNames = ["your mom", "coors", "bad dog"];
 // Looping Exercises
 // 9. Using a loop, log to the console numbers 23 to 99, only in increments of 3.
 
+counter = 23;
+while(counter < 99) {
+counter = counter + 3;
+  console.log(counter);
+}
+// 10. Given the following Array, console log 'Even' if the number is even, 'Even and greater than 10' if the
+//     number is even and greater than 10, and 'Odd' if the number is odd.
+var numArray = [2, 19, 7, 34, 6];
+if(numArray%2 == 0) {
+  console.log("Even");
+} else (numArray%2 <==10) {
+  console.log("Even and greater than 10");
+}
+
 // 10. Given the following Array, console log 'Even' if the number is even, 'Even and greater than 10' if the
 //     number is even and greater than 10, and 'Odd' if the number is odd.
 var numArray = [2, 19, 7, 34, 6];
